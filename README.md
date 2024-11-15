@@ -11,6 +11,14 @@ Ejecuta el siguiente comando para instalar las dependencias:
   ```
 Asegurate de que están todas las que vas a necesitar
 
+1. Instalación de dependencias
+Si aún no tienes Redux, Redux Toolkit y React-Redux instalados, ejecuta los siguientes comandos:
+
+```bash
+npm install @reduxjs/toolkit react-redux axios
+```
+axios se utilizará para hacer las peticiones a la API de GitHub.
+
 
 ## Tecnologías utilizadas
 
@@ -21,7 +29,9 @@ Asegurate de que están todas las que vas a necesitar
 ## Instrucciones
 
 Vamos a traernos los datos de un usuario de github. Puedes probar con el tuyo o generar un input para ir probando directamente desde la API. 
-la URL de la API de github es la siguiente: `https://api.github.com/users/` si añadimos justo después el nombre de usuario accederemos a sus datos. Podéis comproibarlo en con esta URL https://api.github.com/users/carlosdiazgirol
+la URL de la API de github es la siguiente: `https://api.github.com/users/` si añadimos justo después el nombre de usuario accederemos a sus datos. Podéis comprobarlo en con esta URL https://api.github.com/users/carlosdiazgirol
+
+`https://api.github.com/users/Verokina89`
 
 
 Los datos serán:
@@ -30,6 +40,13 @@ Los datos serán:
 - Seguidores
 - Repositorios públicos
 - Imagen
+<!-- 
+The data will be:
+- Name
+- Username
+- Followers
+- Public repositories
+- Image -->
 
 Para manejar el estado globar usaremos REDUX y ahí es donde guardaremos los datos del usuario que nos traigamos.
 
