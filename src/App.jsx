@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { addUser  } from './redux/userSlice.js';
 import { Datos } from './components/Datos.jsx'
+import { Users } from './components/Users.jsx'
 import './App.css'
 
 function App() {
@@ -16,7 +17,9 @@ function App() {
 
   return (
     <>
-    <div className="App">
+    <div className="App"> 
+      <h1>Buscador de Usuarios GitHub</h1>
+      <Users />
       <Datos />
     </div>
       

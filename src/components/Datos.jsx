@@ -5,8 +5,8 @@ export function Datos() {
 
   return (
     <>
-      <h1>Datos del Usuario</h1>
-      <h2>@{username}</h2>
+      <h2>Datos del Usuario</h2>
+      <h3>@{username}</h3>
       <p>Nombre de usuario: {name}</p>
       <p>Email: {email}</p>
       <p>Seguidores: {followers}</p>

@@ -6,9 +6,8 @@ const initialState = {
         username: null,
         followers: 0, 
         public_repos: 0,
-        avatar_url: null,
         email: null,
-        location: ""
+        avatar_url: null,
     },
     loading: false,
     error: null,
@@ -20,13 +19,12 @@ const userSlice = createSlice({
     reducers: {
         addUser: (state, action) => {
             const { name, login, email, followers, public_repos, avatar_url } = action.payload;
-                state.name = name || 'No disponible'
-                state.username = login
-                state.followers = followers
-                state.public_repos = public_repos
-                state.image = avatar_url
-                state.email = email
-                state.location = location
+                state.name = name || 'No disponible';
+                state.username = login;
+                state.followers = followers;
+                state.public_repos = public_repos;
+                state.email = email;
+                state.image = avatar_url;
         },
     },
 });
