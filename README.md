@@ -31,7 +31,7 @@ axios se utilizará para hacer las peticiones a la API de GitHub.
 Vamos a traernos los datos de un usuario de github. Puedes probar con el tuyo o generar un input para ir probando directamente desde la API. 
 la URL de la API de github es la siguiente: `https://api.github.com/users/` si añadimos justo después el nombre de usuario accederemos a sus datos. Podéis comprobarlo en con esta URL https://api.github.com/users/carlosdiazgirol
 
-`https://api.github.com/users/Verokina89`
+https://api.github.com/users/Verokina89
 
 
 Los datos serán:
